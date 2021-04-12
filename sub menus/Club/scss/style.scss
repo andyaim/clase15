@@ -1,0 +1,33 @@
+$ancho: 200px;
+$black:black;
+$white:white;
+$yellow: yellow;
+$poco: 25px;
+$medio: 50px;
+$mucho: 100px;
+
+.display-4 {
+    width:$ancho ;
+    color: $white;
+}
+.col-md-6 {
+    width: ($ancho)+20px;
+    color: $white ;
+}
+
+.lead {
+    background-color: $black;
+    color: $white;
+}
+
+@for $i from 1 through 3 {
+    .p-4 align-self-end #{$i}{width: 20em*$i;}
+    
+}
+
+@each $color in Uno, Dos, Tres{
+.#{$color}{
+    color:#{$yellow};
+}
+}
+

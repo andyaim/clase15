@@ -1,0 +1,290 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+header {
+    background-color: #ff0004;
+
+    background-image: url("https://esports.as.com/2017/07/13/bonus/videojuegos/FC-Barcelona-PES-mano_1044205576_11012_1440x600.jpg");
+    width: 100%;
+    height: auto;
+
+}
+
+
+.Barcelona {
+    color: rgb(230, 245, 17);
+    font-size: 45px;
+    display: flex;
+
+
+}
+
+
+
+.MenuDeBarra {
+    color: white;
+    font-size: 35px;
+    font-style: normal;
+    border: none;
+}
+
+div.bloque {
+    border: 2cm yellow;
+    display: flex;
+    align-items: stretch;
+    overflow: auto;
+    margin: 8px;
+    padding: 5px;
+}
+
+
+main {
+    background-color: #0cbaba;
+    background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+    color: rgb(1, 1, 3);
+    text-decoration: none;
+    font-size: 25px;
+    box-shadow: 0 0 20px 0 rgb(255 255 255 / 30%);
+
+}
+
+main p {
+    text-transform: lowercase;
+    overflow: auto;
+    font-size: 20px;
+    margin: 1px;
+
+}
+
+main h2 {
+    background-color: rgb(202, 198, 140);
+    font-weight: bolder;
+    font-size: 20px;
+    text-decoration: none;
+    border: 0px
+}
+
+
+
+#destacadoUno ul li {
+    color: rgb(230, 245, 17);
+    font-size: 20px;
+    list-style: none;
+
+}
+
+.destacado {
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.informacion-jugadores {
+    color: white
+}
+
+.destacado ul li {
+    font-size: 25px;
+}
+
+
+fieldset legend {
+    color: white;
+    background-color: rgb(71, 105, 155);
+    text-decoration: none;
+    font-weight: lighter;
+
+}
+
+
+body {
+    background-color: #7f5a83;
+    background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+    color: white;
+    font-family: "Quicksand", sans-serif;
+    padding: 0 1.5em;
+}
+
+.contendor {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+}
+
+.logo {
+    text-align: center;
+    font-size: 3em;
+}
+
+.logo span {
+    color: #b70e21;
+}
+
+.ContenedorDos {
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+}
+
+.ContenedorDos>* {
+    padding: 1em;
+}
+
+.ContenedorForm {
+    background: #222222;
+}
+
+.ContenedorForm form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.ContenedorForm form .block {
+    grid-column: 1/3;
+}
+
+.ContenedorForm form p {
+    margin: 0;
+    padding: 1em;
+}
+
+.ContenedorForm form button,
+.ContenedorForm form input,
+.ContenedorForm form textarea {
+    width: 100%;
+    padding: 7em;
+    border: none;
+    background: none;
+    outline: none;
+    color: white;
+    border-bottom: 1px solid red;
+}
+
+.ContenedorForm form button {
+    background: red;
+    color: black;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+
+}
+
+.ContenedorForm form button:hover,
+.ContenedorForm form button:focus {
+    background: red;
+    color: white;
+    outline: 0;
+}
+
+.ContenedorInfo {
+    background: #000;
+}
+
+.ContenedorInfoo h4,
+.ContenedorInfo ul,
+.ContenedorInfo p {
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+
+.cContenedorInfo ul {
+    list-style-type: none;
+    padding: 0;
+
+}
+
+.ContenedorInfo {
+    padding: 3em;
+}
+
+@media (min-width: 700px) {
+    body {
+        padding: 0 4rem;
+    }
+
+    .ContenedorDos {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .ContenedorDos {
+        padding: 2em;
+    }
+
+    .ContenedorInfo h4,
+    .ContenedorInfo ul,
+    .ContenedorInfo p {
+        padding: 1em;
+        text-align: left;
+    }
+
+}
+
+
+
+footer {
+    background-color: #7f5a83;
+    background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+    text-decoration: none;
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+    font-family: monospace;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer h3,
+h3,
+h4,
+h5,
+h6 {
+    color: white;
+    background-color: #7f5a83;
+    background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+    font-size: 20px;
+}
+
+article {
+    width: 100%;
+    border: 1px rgb(1, 1, 3);
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+article img {
+    width: 50%;
+}
+
+table {
+    color: white;
+    font-size: 20px;
+    border: 5px solid black;
+    font-style: oblique;
+    text-align: center;
+    display: -webkit-box;
+}
+
+.FlexDos {
+    color: yellow;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.FlexDos img:hover {
+    transform: translate(2px, 100px);
+}
+
+.FlexDos p:hover {
+    color: red;
+}
+
+.flextres {
+    color: white;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+}
