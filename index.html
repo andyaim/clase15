@@ -5,11 +5,13 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Barcelona F.C</title>
-	<link rel="stylesheet" href="estilo.css">
+	<link rel="stylesheet" href="css/estilo.css">
 	<!-- FONT AWSOME-->
 	<script src="https://kit.fontawesome.com/16d63d83a9.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="pagina.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 </head>
 
 <body>
@@ -18,62 +20,38 @@
 			<img src="imagen/barcelona.png" style="height: 250px;">
 			<h1>Barcelona F.C</h1>
 		</div>
-		<nav id="menu">
-			<ul class="nav">
-				<li><a href="futbol femenino.html">Futbol femenino</a>
-
-					<ul>
-						
-						<li><a href="#">Resultado</a></li>
-						<li><a href="#">Tienda<a></li>
-						<li><a href="#">Club<a></li>
-						
-					</ul>
-
-				</li>
-				<li><a href="baloncesto.html">Baloncesto</a>
-
-					<ul>
-						
-						<li><a href="#">Resultado</a></li>
-						<li><a href="#">Tienda<a></li>
-						<li><a href="#">Club<a></li>
-						
-					</ul>
-
-				</li>
-				<li><a href="BalonMano.html">BalonMano</a>
-
-					<ul>
-						
-						<li><a href="#">Resultado</a></li>
-						<li><a href="#">Tienda<a></li>
-						<li><a href="#">Club<a></li>
-						
-					</ul>
-
-				</li>
-				<li><a href="Futbol sala.html">Futbol sala</a>
-
-					<ul>
-						
-						<li><a href="#">Resultado</a></li>
-						<li><a href="#">Tienda<a></li>
-						<li><a href="#">Club<a></li>
-						
-					</ul>
-
-				</li>
-				<li><a href="Hockey sobre patines.html">Hockey sobre patines</a>
-					<ul>
-						
-						<li><a href="#">Resultado</a></li>
-						<li><a href="#">Tienda<a></li>
-						<li><a href="#">Club<a></li>
-						
-					</ul>
-				</li>
-			</ul>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+			<div class="container">
+				<div class="container-fluid">
+					<a class="navbar-brand" href="imagen/barcelona.png"></a>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+						aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarNav">
+						<ul class="navbar-nav">
+							<li class="nav-item">
+								<a class="nav-link active" aria-current="page" href="">Home</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="html/futbol femenino.html">Futbol femenino</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="html/baloncesto.html">Baloncesto</a>
+							</li>
+								<li class="nav-item">
+									<a class="nav-link" href="html/balonmano.html">BalonMano</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="html/Futbol sala.html">Futbol sala</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="html/Hockey sobre patines.html">Hockey sobre patines</a>
+								</li>
+						</ul>
+					</div>
+				</div>
+			</div>
 		</nav>
 	</header>
 	<main>
@@ -118,12 +96,9 @@
 							deportiva (S. A. D.), de manera que la propiedad del club recae en sus socios.
 						</p>
 					</div>
-					<div class="FlexUno">
-						<h2>Fotos de los jugadores que forman el plantel </h2>
+					<div class="FlexDos">
 						<img src="imagen/imagen.jpg">
-						<div class="FlexDos">
-							<img width="50%" src="imagen/PQEXUGN32BDBZLTMRCPYPITC2E.jpg">
-							<p> Puro crack. Barcelona siempre se ha caracterizado por tener como uno de sus principales
+							<p > Puro crack. Barcelona siempre se ha caracterizado por tener como uno de sus principales
 								objetivos el contar con una de las plantillas más poderosas de Europa y en el próximo
 								mercado no quieren ser la excepción. Motivo por el cual, los altos mandos del cuadro
 								'Azulgrana' ya piensan en los nuevos y jóvenes jugadores que continuarán con la leyenda
@@ -143,53 +118,9 @@
 								que viene. Entre los más destacados de la nómina destacan el español Fabián Ruíz y el
 								argentino Lautaro Martínez. ¿Agregarías a alguien?</p>
 						</div>
+					</aside>
 			</article>
 		</section>
-		<form action="">
-			<fieldset>
-				<legend>F.C.BARCELONA</legend>
-				<label for="Nombre"></label>
-				<input type="text" name="Nombre"></imput><br>
-				<label for="Apellido"></label>
-				<input type="text" name="Apellido"></imput><br>
-				<label for="Email"></label>
-				<input type="email" name="Email"></input><br>
-				<label for="Contraseña"></label>
-				<input type="password" name="Contraseña"></input><br>
-				<textarea name="" id="" cols="50" rows="20"
-					placeholder="Escribe tu opinion acerca del cuadro F.C Barcelona"></textarea><br>
-				<input type="submit" name="Escribe tu opinion acerca del cuadro F.C Barcelona"></input>
-				<input type="reset" name="reseteo"></input><br>
-				<label for="Hombre"></label>
-				<input type="radio" name="sexo" value="hombre"></input><br>
-				<label for="Mujer"></label>
-				<input type="radio" name="sexo" value="mujer"></input>
-				<div>
-					¿Aceptas los terminos y condiciones?
-				</div>
-				<div>
-					Si
-				</div>
-				<input type="checkbox" name="termino" value="1">
-				<div>
-					No
-				</div>
-				<input type="checkbox" name="termino" value="1">
-			</fieldset>
-			<p>
-				Los términos y condiciones ("Términos") son un conjunto de términos legales definidos por el
-				propietario de una página web. Establecieron los términos y condiciones que rigen las actividades de
-				los visitantes de la página web en dicho sitio web y la relación entre los visitantes del sitio y el
-				propietario del sitio web.
-				Los términos deben definirse de acuerdo con las necesidades específicas y la naturaleza de cada
-				página web. Por ejemplo, una página web que ofrece productos a clientes en transacciones de comercio
-				electrónico requiere términos que son diferentes de los términos de una página web que solo
-				proporciona información.
-				Los Términos son un acuerdo entre el propietario del sitio web y los usuarios de la página web;
-				detallan las políticas y procedimientos realizados por el sitio web. En muchos sentidos, los
-				Términos brindan al propietario de la página web la posibilidad de protegerse de una posible
-				exposición legal.
-			</p>
 		</form>
 		<table>
 			<thead>
@@ -261,14 +192,11 @@
 			</tbody>
 		</table>
 	</main>
-
 	<div class="contenedor">
-
-		<h1 class="logo">Contacta<span>nos</span></h1>
-
+		<h2 class="logo">Contacta<span>nos</span></h2>
 		<div class="ContenedorDos">
 			<div class="ContenedorForm">
-				<h1>Contactanos</h1>
+				<h2>Contactanos</h2>
 				<form action="">
 					<p>
 						<label>Nombre completo</label>
