@@ -19,121 +19,80 @@ h1 {
     color: white;
 }
 
-#menu {
-    overflow: auto;
-    display: flex;
-    flex-direction: row;
-     
+#menu ul li {
+    background-color:#2e518b;
 }
 
-.nav ul li {
-    display: inline-flex;
-    padding: 0px;
-    border-radius: 20px;
-    background-color: red;
-    align-items: baseline;
+#menu ul {
+  list-style:none;
+  margin:0;
+  padding:0;
 }
 
+#menu ul a {
+  display:block;
+  color:#fff;
+  text-decoration:none;
+  font-weight:400;
+  font-size:15px;
+  padding:10px;
+  font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform:uppercase;
+  letter-spacing:1px;
+}
 
-.nav li a {
-    background-color: red;
-    color: white;
-    border-radius: 20px;
-    font-size: 20px;
-    text-decoration: none;   
+#menu ul li {
+  position:relative;
+  float:left;
+  margin:0;
+  padding:0;
+}
+
+#menu ul li:hover {
+  background:#5b78a7;
+}
+
+#menu ul ul {
+  display:none;
+  position:absolute;
+  top:100%;
+  left:0;
+  padding:0;
+}
+
+#menu ul ul li {
+  float:none;
+  width:150px
+}
+
+#menu ul ul a {
+  line-height:120%;
+  padding:10px 15px;
+}
+
+#menu ul li:hover > ul {
+  display:block;
 
 }
 
-.nav>li {
-    float: left;
-}
-
-.nav li a:hover {
-    color: white;
-    overflow: auto;
-
-}
-
-.nav li ul {
-    display: none;
-    position: relative;
-    min-width: 20px;
-
-}
-
-.nav li:hover>ul {
-    display: block;
-    display: flex;
-    flex-direction: column;
-    font-size: 20px;
-}
-
-.nav li ul li {
-    position: relative
-}
-
-nav.rojo {
-    background-color: red;
-    color: white;
-    font-size: 25px;
-    font-family: monospace;
-    border: 3px solid yellow;
-}
-
-.lista {
-    color: yellow;
-
-}
-body{
-    background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);;
-    margin: 0;
-}
-
-aside {
-    font-size: 25px;
-    color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-.bg-amarillo{
-    display: flex;
-    flex-direction: row;
+body {
+    font-family: 'Titillium Web', sans-serif;
     background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
-    width: 500px;
-}
-
-footer{
-    overflow: auto;
-    margin: 5px solid black;
-    display: flex;
-    flex-direction:row ;
-    background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+  }
+  
+  .navbar-brand {
     font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-footer h2, h3, h4, h5, h6 {
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-}
-h2 {
-    color: white;
-    font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-    background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
-}
-aside{
-    width: 25%;
-    background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
-}
-article{
-    padding: 1px;
-    margin: 2px solid black;
-}
-main{
-    
-    height: 70vh;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-
-}
+    color: #000;
+    font-weight: bold;
+  }
+  
+  #testimonial {
+    background: #f1f1f1;
+    padding: 50px 0 30px 0;
+    text-align:center;
+    margin-top: 40px;
+  }
+  
+  footer {
+    background: url(../img/smartphones.png);
+  }

@@ -152,7 +152,7 @@ body {
 .ContenedorForm form input,
 .ContenedorForm form textarea {
     width: 100%;
-    padding: 7em;
+    padding: 1em;
     border: none;
     background: none;
     outline: none;
