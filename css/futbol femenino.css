@@ -6,7 +6,7 @@
 header {
     background-color: #ff0004;
 
-    background-image: url("https://esports.as.com/2017/07/13/bonus/videojuegos/FC-Barcelona-PES-mano_1044205576_11012_1440x600.jpg");
+    background-image: url("https://www.gratistodo.com/wp-content/uploads/2016/08/Fondo-pantalla-FB-Barcelona-Wallpaper-13-Camp-Nou.jpg");
     width: 100%;
     height: auto;
     margin: 0px solid black;
@@ -73,6 +73,10 @@ h1 {
 #menu ul li:hover > ul {
   display:block;
 
+}
+
+.mt-5 {
+  color: white;
 }
 
 body {
